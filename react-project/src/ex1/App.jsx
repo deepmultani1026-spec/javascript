@@ -5,13 +5,20 @@ import React from 'react';
 //<p>My goal: Learn React</p>
 
 // DO NOT EDIT THE APP COMPONENT NAME OR CONTENT
-
+function Goal(){
+  return (
+    <>
+      <p> My goal: Learn React</p>
+    </>
+  );
+}
 function App() {
   return (
     <div id="app">
       <h1>Practice Time!</h1>
       {/* DON'T CHANGE THE TEXT / CONTENT ABOVE */}
       {/* OUTPUT YOUR COMPONENT HERE */}
+      <Goal></Goal>
     </div>
   );
 }
